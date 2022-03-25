@@ -1,0 +1,7 @@
+.checklist .addbtn{
+  float: right;
+  margin-bottom: 30px;
+}
+.checklist .addwrapper{
+  overflow: hidden;
+}

@@ -1,0 +1,37 @@
+.index{
+  height: 100vh;
+}
+.index .wrapper{
+  flex-grow: 1;
+}
+.index .header{
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.index .user{
+  color: white;
+  font-size: 20px;
+  display: flex;
+}
+.index .ant-dropdown-link{
+  color: white;
+}
+
+#components-layout-demo-top-side-2 .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-row-rtl #components-layout-demo-top-side-2 .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.site-layout-background {
+  background: #fff;
+}

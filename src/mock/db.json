@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "email": "admin@qq.com",
+      "password": "$2a$10$iH6OkIbWaiCpdSI/Ohd87u2o3LZIdroc.0dgmODfnnC7QQhobdmp.",
+      "name": "admin",
+      "status": "管理员",
+      "id": 1
+    },
+    {
+      "email": "daqiang@qq.com",
+      "password": "$2a$10$Zdop1Fmc.PKXTEcHmc5bxu9tK1k.lPKBI6qp9.Az49btEqQh/uxaK",
+      "name": "大强",
+      "status": "经理",
+      "id": 2
+    },
+    {
+      "email": "xiaobai@qq.com",
+      "password": "$2a$10$V5.asXbwN4VzUN4hSlwtouZAVJk8syytbpZ6Pg9QIW4L2w38hJIHa",
+      "name": "小白",
+      "status": "员工",
+      "id": 3
+    }
+  ],
+  "checks": [
+    {
+      "status": "通过",
+      "checkfromid": 3,
+      "checkfromname": "小白",
+      "checktoid": "2",
+      "checktoname": "大强",
+      "checktype": "年假",
+      "checktime": [
+        "2022-03-15T14:23:39.405Z",
+        "2022-03-17T14:23:44.405Z"
+      ],
+      "checkinfo": "aaa",
+      "id": 1
+    },
+    {
+      "status": "不通过",
+      "checkfromid": 3,
+      "checkfromname": "小白",
+      "checktoid": "2",
+      "checktoname": "大强",
+      "checktype": "调休",
+      "checktime": [
+        "2022-03-17T06:07:31.853Z",
+        "2022-03-18T06:07:38.853Z"
+      ],
+      "checkinfo": "正常调休，望领导批准",
+      "id": 2
+    }
+  ],
+  "times": [
+    {
+      "0": {},
+      "1": {},
+      "2": {
+        "14": [
+          "11:48:27",
+          "11:50:17"
+        ],
+        "16": [
+          "02:05:41",
+          "02:06:36"
+        ]
+      },
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {},
+      "9": {},
+      "10": {},
+      "11": {},
+      "id": 3
+    }
+  ]
+}
